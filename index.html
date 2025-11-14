@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="src/output.css">
+  <script src="js/main.js" defer></script>
+
+  <!-- IDEA: Use a grid layout for the extensions list to make it responsive -->
+
+  <!-- RESEARCH: Vue js and React to decide which framework will be of best use for filtering out card component functionality required for the challenge -->
+
+  <!-- NOTE: Use CSS variables for consistent theming in tailwind -->
+
+  
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="bg-light-gradient">
+  <main class="container mx-auto p-6">
+    <!-- extensions toggle section -->
+     <div class="bg-white rounded-lg shadow-md mb-6">
+      <div class="bg-neutral-0 flex justify-between items-center px-6 py-4 rounded-t-lg">
+        <div> 
+          <img src="assets/images/logo.svg" alt="extensions manager logo">
+        </div>
+        <div>
+          <button class="btn-theme-toggle cursor-pointer bg-neutral-50 p-2 rounded-md flex items-center">
+            <img class="icon-sun hidden" src="assets/images/icon-sun.svg" alt="icon sun">
+            <img class="icon-moon" src="assets/images/icon-moon.svg" alt="icon moon">
+          </button>
+        </div>
+      </div>
+     </div>
+
+    <!-- extensions list with filter buttons -->
+     <div class="flex justify-between">
+      <div>
+        <h1>Extensions List</h1>
+      </div>
+      <div>
+        <button class="px-4">All</button>
+        <button class="bg-neutral-50 px-4">Active</button>
+        <button class="bg-neutral-50 px-4">Inactive</button>
+      </div>
+     </div>
+
+    <!-- extensions cards with filter buttons between active and inactive -->
+  </main>
+
+ 
+
+
+  <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below -->
+
+  DevLens
+  Quickly inspect page layouts and visualize element boundaries.
+  Remove
+
+  StyleSpy
+  Instantly analyze and copy CSS from any webpage element.
+  Remove
+
+  SpeedBoost
+  Optimizes browser resource usage to accelerate page loading.
+  Remove
+
+  JSONWizard
+  Formats, validates, and prettifies JSON responses in-browser.
+  Remove
+
+  TabMaster Pro
+  Organizes browser tabs into groups and sessions.
+  Remove
+
+  ViewportBuddy
+  Simulates various screen resolutions directly within the browser.
+  Remove
+
+  Markup Notes
+  Enables annotation and notes directly onto webpages for collaborative debugging.
+  Remove
+
+  GridGuides
+  Overlay customizable grids and alignment guides on any webpage.
+  Remove
+
+  Palette Picker
+  Instantly extracts color palettes from any webpage.
+  Remove
+
+  LinkChecker
+  Scans and highlights broken links on any page.
+  Remove
+
+  DOM Snapshot
+  Capture and export DOM structures quickly.
+  Remove
+
+  ConsolePlus
+  Enhanced developer console with advanced filtering and logging.
+  Remove
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profiles/EAguayodev">Eric Aguayo</a>.
+  </div>
+</body>
+</html>
