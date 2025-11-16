@@ -37,3 +37,45 @@
  .attribution a {
      color: hsl(228, 45%, 44%);
  }
+
+ /* Toggle Switch Styles */
+ .toggle-container {
+     position: relative;
+ }
+
+ .toggle-checkbox {
+     display: none;
+ }
+
+ .toggle-label {
+     display: block;
+     width: 40px;
+     height: 24px;
+     background-color: #d1d5db;
+     /* neutral-300 equivalent */
+     border-radius: 12px;
+     position: relative;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+ }
+
+ .toggle-slider {
+     display: block;
+     width: 20px;
+     height: 20px;
+     background-color: white;
+     border-radius: 50%;
+     position: absolute;
+     top: 2px;
+     left: 2px;
+     transition: transform 0.3s ease;
+ }
+
+ .toggle-checkbox:checked+.toggle-label {
+     background-color: #ef4444;
+     /* red-500 or your preferred active color */
+ }
+
+ .toggle-checkbox:checked+.toggle-label .toggle-slider {
+     transform: translateX(15px);
+ }
