@@ -29,8 +29,6 @@ Users should be able to:
 - See hover and focus states for all interactive elements on the page
 
 ### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Netlify](https://browser-ui-extension.netlify.app/)
 
 ## My process
@@ -39,7 +37,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Flexbox
-- CSS Grid
 - JavaScript
 - Desktop-first workflow
 - [TailwindCSS](https://tailwindcss.com/) - For styles
@@ -48,31 +45,14 @@ Users should be able to:
 ### What I learned
 
 
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
 ### Continued development
 
 
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - 
-- [Example resource 2](https://www.example.com) - 
+- []() - 
+- []() - 
 
 
 
