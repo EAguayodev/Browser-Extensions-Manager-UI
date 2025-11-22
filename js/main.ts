@@ -19,7 +19,7 @@ filterAll?.addEventListener('click', () => {
 });
 filterActiveButton?.addEventListener('click', () => {
     extensionCards.forEach(card => {
-          const toggle = card.querySelector(".toggle-checkbox");
+          const toggle = card.querySelector(".toggle-checkbox") as HTMLInputElement;
           if (toggle.checked) {
             card.classList.remove("hidden");
           } else {
@@ -29,7 +29,7 @@ filterActiveButton?.addEventListener('click', () => {
 });
 filterInactiveButton?.addEventListener('click', () => {
     extensionCards.forEach(card => {
-        const toggle = card.querySelector(".toggle-checkbox");
+        const toggle = card.querySelector(".toggle-checkbox") as HTMLInputElement;
         if (!toggle.checked) {
           card.classList.remove("hidden");
         } else {
